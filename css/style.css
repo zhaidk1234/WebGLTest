@@ -1,0 +1,60 @@
+body{
+	font-size: 12px;
+	font-family:'Microsoft Yahei', Calibri, Verdana, Helvetica, Arial, sans-serif;
+}
+.tooltip{
+	position: absolute; 
+	background: rgba(172,222,254,0.8); 
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 20px;
+	display: none;
+	top:100px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.tooltip:after{
+	content: ''; 
+	margin-left:50%; 
+	position: absolute; 
+	bottom:-10px; 
+	left:-10px; 
+	border-top:10px solid rgba(172,222,254,0.8); 
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+}
+.tooltip table tr{margin: 10px;}
+.tooltip-key{
+	width: 60px;
+	text-align: right;
+	display: inline-table;
+	margin-right: 5px;
+}
+.tooltip-value{
+	text-align: left;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 6px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: rgba(255,255,255,0.9);
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 6px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: rgba(255,255,255,0.6);
+}
